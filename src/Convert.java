@@ -28,8 +28,8 @@ public class Convert {
         boolean file = !false;
         String pack = "package chapter4";
         if (file) {
-            String filename = "pome.txt";
-            convert(filename, "IO_for_ch07/" + filename, "");
+            String filename = "SuperConstructor.java";
+            convert(filename, "src/chapter4/" + filename, pack + ";\n\n");
         } else {
             String dirname = "UpperBound";
             Path dir = Paths.get(dirname);
