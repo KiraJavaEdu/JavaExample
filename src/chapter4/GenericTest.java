@@ -1,6 +1,6 @@
 package chapter4;
 
-// 定义Apple类时使用了泛型声明
+// 定义Book类时使用了泛型声明
 class Book<T> {
 	// 使用T类型形参定义实例变量
 	private T info;
