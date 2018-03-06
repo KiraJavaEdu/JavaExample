@@ -26,10 +26,10 @@ public class Convert {
 
     public static void main(String[] args) {
         boolean file = !false;
-        String pack = "package chapter4";
+        String pack = "package chapter5";
         if (file) {
-            String filename = "SuperConstructor.java";
-            convert(filename, "src/chapter4/" + filename, pack + ";\n\n");
+            String filename = "ObjectCloneTest.java";
+            convert(filename, "src/chapter5/" + filename, pack + ";\n\n");
         } else {
             String dirname = "UpperBound";
             Path dir = Paths.get(dirname);
