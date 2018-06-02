@@ -1,7 +1,8 @@
-2016JavaExample.iml
+KiraJavaExample.iml
 .idea/*
 IO_for_ch07/*Output.txt
 IO_for_ch07/*.dat
 out/*
 doc/*
 .DS_Store
+src/.DS_Store
